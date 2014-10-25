@@ -12,15 +12,15 @@ tidy when:
  
 
 REQUIREMENTS:
-1.  plyr library
-2.  dplyr library
-3.  source data, available from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ 1.  plyr library
+ 2.  dplyr library
+ 3.  source data, available from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 DIRECTIONS:
 Unpack the datasets and this R script to your current working directory.  Source the script to generate a tidy data set.
 
 The script creates tidy data and outputs a subsetted table as practical analysis in the following manner:
-1.  Eight text files are assembled into a single table.  This includes data from:
+ 1.  Eight text files are assembled into a single table.  This includes data from:
    a.  Test data sets  (2947 observations)
    b.  Training data sets  (7352 observations)
    c.  Subject identifier (30 total subjects)
@@ -32,18 +32,18 @@ The script creates tidy data and outputs a subsetted table as practical analysis
        5.  Walking down
        6.  Laying
   e.   Names of the data points collected
-2.  The Activity and Subject data columns are bound to the observational
+ 2.  The Activity and Subject data columns are bound to the observational
 numeric data.
 The Activity names are substituted for their code numbers within
 the data set for easier readability.
-3.  Each numeric data column is labeled with a meaningful indicator.
-4.  At this point, the data is tidy and ready for analysis.
-5.  The script continues to create a new data table which includes only those
+ 3.  Each numeric data column is labeled with a meaningful indicator.
+ 4.  At this point, the data is tidy and ready for analysis.
+ 5.  The script continues to create a new data table which includes only those
 data points (columns) in the larger table which indicate a mean or standard deviation value.  Per the original experimenters, the following two data types meet this criteria:
     mean(): Mean value
     std(): Standard deviation
 Thus, each data column name is scanned for the presence of "mean()" or "std()".  Matching columns are selected for inclusion in the final data set.
-6.  The final data set is examined to present the mean of each numeric data point, arranged by Activity and Subject.
-7.  The data set is written to a text file for upload to Coursera.
+ 6.  The final data set is examined to present the mean of each numeric data point, arranged by Activity and Subject.
+ 7.  The data set is written to a text file for upload to Coursera.
 
 The script itself is well-commented and will further explain the sequence of operations.
