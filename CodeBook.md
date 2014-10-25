@@ -18,6 +18,10 @@ The following 68 data fields are present in the final data set:
     *** All remaining data elements are mean values (means of means and
         means of standard deviations).  Data was normalized and bounded
         within [-1, 1].
+
+	*** Linear acceleration data are measured in standard gravity units g.
+
+	*** Angular velocity data are measured in radians/second.
         
 3. timebodylinearaccelerationmeanx
 
