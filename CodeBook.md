@@ -22,8 +22,8 @@ The following 68 data fields are present in the final data set:
  3. timebodylinearaccelerationmeanx
     Time domain: body linear acceleration mean X direction
     
-4 timebodylinearaccelerationmeany
-    Time domain: body linear acceleration mean Y direction
+4. timebodylinearaccelerationmeany
+	Time domain: body linear acceleration mean Y direction
     
 5 timebodylinearaccelerationmeanz
     Time domain: body linear acceleration mean Z direction
