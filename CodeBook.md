@@ -2,7 +2,7 @@ Codebook for tidy_data set
 ========================================================
 The following 68 data fields are present in the final data set:
 
-1 activity
+ 1. activity
     WALKING
     WALKING_UPSTAIRS
     WALKING_DOWNSTAIRS
@@ -10,7 +10,7 @@ The following 68 data fields are present in the final data set:
     STANDING
     LAYING
 
-2 subject
+ 2. subject
     Subject number 1 through 30
     
     
@@ -19,7 +19,7 @@ The following 68 data fields are present in the final data set:
         within [-1, 1].
         
         
-3 timebodylinearaccelerationmeanx
+ 3. timebodylinearaccelerationmeanx
     Time domain: body linear acceleration mean X direction
     
 4 timebodylinearaccelerationmeany
